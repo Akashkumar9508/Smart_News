@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Nunito:wght@300;600&family=Rubik+Glitch+Pop&family=Single+Day&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #C499F3;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#33186B;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    /* background:#C499F3; */
+    background:#33186B;
+}
+
+body{
+    height: 400vh;
+    width: 100%;
+    background-color: #F2AFEF;
+}
+.navbar{
+    padding: 10px 50px;
+    background-color: #33186B;
+}
+.navbar-toggler{
+    border: none;
+    padding: 0;
+
+}
+.navbar-toggler-icon
+{
+    /* background-color: #fff; */
+    font-size: 2rem;
+    background-image: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.headlines{
+    margin: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+    
+}
+.headlines h2{
+    color: #33186B;
+    font-weight: 600;
+}
+
+
+.my-card .discription{
+    border-radius: 6px;
+    width: 60%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.discription .tittle h3{
+    color: #33186B;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.newsContainer{
+    width: 100%;
+    height: 400vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsItem{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    padding: 50px;
+    border-radius: 7px;
+    gap: 30px;
+    background-color: #C499F3;
+    display: flex;
+    
+}
+.newsItem img {
+    /* width: 100px; */
+    height: 100%;
+    width: 35%;
+    border-radius: 10px;
+}
+.newsItem h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #33186B;
+}
+.newsItem p{
+    font-size: 1.5rem;
+    color: #33186B;
+    font-weight: 400;
+
+}
+.my-desc{
+    display: flex;
+    flex-direction: column;
+
+}
+.newsItem .my-desc a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #33186B;
+    transition: .5s ease;   
+}
+.newsItem .my-desc a:hover{
+    color: #210c49;
+    font-weight: 600;
+}
