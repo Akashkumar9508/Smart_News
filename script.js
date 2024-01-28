@@ -1,6 +1,6 @@
 const newsContainer = document.getElementById("newsContainer");
 const apiKey = "6d4aa0b833b9404a8009d4e602209837"; // Replace with your actual API key
-const topics = "";
+const topics = "health";
 const url = `https://newsapi.org/v2/top-headlines?domains=wsj.com&country=in&category=${topics}&apiKey=${apiKey}`;
 
 async function getNews(url) {
